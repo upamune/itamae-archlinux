@@ -8,5 +8,5 @@ end
 
 execute "update pacman.conf" do
   user "root"
-  command "pacman --sync --refresh yaourt"
+  command "pacman --sync --noconfirm --refresh yaourt"
 end
