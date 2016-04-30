@@ -6,6 +6,8 @@ include_recipe "../cookbooks/user/default.rb"
 
 include_recipe "../cookbooks/fonts/default.rb"
 
+include_recipe "../cookbooks/docker/default.rb"
+
 include_recipe "../cookbooks/go/default.rb"
 include_recipe "../cookbooks/python/default.rb"
 include_recipe "../cookbooks/ruby/default.rb"
