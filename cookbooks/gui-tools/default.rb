@@ -6,5 +6,6 @@ yaourt 'filezilla'
 yaourt 'gimp'
 yaourt 'slack-desktop'
 yaourt 'transmission-gtk'
+yaourt 'vlc'
 yaourt 'wine'
 
