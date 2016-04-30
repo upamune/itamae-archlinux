@@ -3,6 +3,7 @@ include_recipe "../cookbooks/yaourt/default.rb"
 include_recipe "../cookbooks/terminal/default.rb"
 
 include_recipe "../cookbooks/user/default.rb"
+include_recipe "../cookbooks/ssh/default.rb"
 
 include_recipe "../cookbooks/fonts/default.rb"
 
