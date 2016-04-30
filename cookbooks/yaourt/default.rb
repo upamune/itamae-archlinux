@@ -2,7 +2,8 @@
 
 remote_file "/etc/pacman.conf" do
   owner "root"
-  group "root"
+  mode "0644"
+  group "users"
   source "files/pacman.conf"
 end
 
