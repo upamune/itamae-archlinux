@@ -1,5 +1,5 @@
 include_recipe "../cookbooks/yaourt/default.rb"
-# ユーザー作成時にログインシェルをzshに指定したので先に実行
+# ユーザー作成時にログインシェルをzshに指定したいので先に実行
 include_recipe "../cookbooks/terminal/default.rb"
 
 include_recipe "../cookbooks/user/default.rb"

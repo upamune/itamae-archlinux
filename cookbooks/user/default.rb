@@ -7,5 +7,6 @@ user 'create user' do
   system_user true
   create_home true
   home home_dir
+  shell run_command("which zsh").stdout.strip
 end
 
