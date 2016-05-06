@@ -9,4 +9,5 @@ yaourt 'slack-desktop'
 yaourt 'transmission-gtk'
 yaourt 'vlc'
 yaourt 'wine'
+yaourt 'gpointing-device-settings'
 
